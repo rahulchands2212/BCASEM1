@@ -1,2 +1,0 @@
-# STRINGLAB4
-sem1
