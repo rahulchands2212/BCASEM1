@@ -1,0 +1,9 @@
+variable :-  variable is name of memory location which is given by the programger .
+
+rule of naming a variable.
+
+1. the name of variable start by a character or _ .
+2. it is case sensitive .
+3. when we decleared a variable we also decleared its data type .
+4. the name of variable not start with digit .
+5. underscore is the only one special character allow for naming the variable 

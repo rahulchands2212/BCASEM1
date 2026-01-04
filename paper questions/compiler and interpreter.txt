@@ -1,0 +1,13 @@
+compiler :-
+1. compiler read whole code once.
+2. compiler is faster than interpreter .
+3. compiler show all error after compiling the code .
+4. in compiler debugging is difficult.
+5. example :- c,c++.
+
+interpreter :-
+1. interpreter reads code line by line .
+2. interpreter is slower than compiler .
+3. interpreter shows error line by line .
+4. in interpreter easy  debugging is easy.
+5. example :- python,javascript.
