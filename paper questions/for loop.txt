@@ -1,0 +1,22 @@
+loop :- a loop is the process of repeating a block of code until the condition is satisfied.
+
+for loop :- in the process of for loop block of code run until the condition is satisfied.
+
+syntax :- 
+for(int i= inisilatiiont ; i<=condition ; i= increment/decrement){
+
+}
+
+example : print number 1 to 10;
+so the starting point is = 1 
+and ending point is = 10
+update = starting+1.
+
+code : - 
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=10;i=i+1){
+        printf("%d\n",i);
+    }
+    return 0;
+}
