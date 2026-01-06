@@ -1,0 +1,50 @@
+while loop :-  while loop is used when  we do not  know number of iteration in advance.
+this loop also known as pre check loop.
+
+while loop syntax : - 
+while(condition){
+    body;
+    update = increment/decrement;
+}
+
+simple program by while loop ;
+
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter number : ");
+    scanf("%d",&number);
+
+printf("reverse : ");
+    while(number>0){
+        int r = number%10;
+        printf("%d",r);
+        number = number/10;
+    }
+
+    return 0;
+}
+
+
+do while loop :- do while loop used when  we at least get  one output.
+this loop also known as post check loop.
+
+do while syntax :-
+do{
+    body
+    update = increment/decrement;
+}while(condition);
+
+simple program by do while loop;
+print number 1 to 5;
+
+#include<stdio.h>
+int main(){
+    int i =1;
+    do{
+        printf("%d",i);
+        i++;
+    }while(i<=10);
+
+    return 0;
+}

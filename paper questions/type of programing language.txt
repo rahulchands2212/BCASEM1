@@ -1,0 +1,23 @@
+programing language : - 
+programing language is use for giving command to the computer or a machine which give us output on the basic of user input.
+
+Type of programing language 
+1. low level language .
+2. high level language .
+
+low level language :-
+low level language is that language in which machine easy understand the command but human cannot understand.
+example . assembly language,machine language .
+
+high level language :-
+high level language is that language in which user can easy understand the command. but computer not understand the high level language 
+firstly it convert into binary means 0s 1s with the help of compiler and interpreter .
+example - c,c++,python,java etc.
+
+middle level language :-
+middle level language is that language in which user and machine easy understand the command 
+example c.
+
+object oriented programing language : - 
+object oriented programing language is that language in which programmer create object , class . we can reuse class in future .
+example - c++,python,java.
