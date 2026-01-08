@@ -1,0 +1,30 @@
+string:- string is a char type array which is terminated at '\0' (null character);
+string is input by gets and fgets . fgets is safe than gets because fgets write char according to string size.
+gets is unsafe because gets overwrite the memory.
+
+syntax:-
+char name[size];
+
+function of string:-
+c provide my function for string which can be access by string.h header file.
+1.strcmp    :- strcmp is used for compare two string.
+2.strcat    ;- strcat is used for join two string.
+3.strlen    :- strlen is used for count the length of string.
+4.strcpy    ;- strcpy is used for copy one string to another.
+
+example 
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+char arr[20];   //define string;
+
+printf("enter name : ");
+fgets(arr,20,stdin);
+
+//using  strlen string.
+printf("length : %d",strlen(arr));
+
+return 0;
+
+}
