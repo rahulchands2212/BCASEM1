@@ -1,0 +1,24 @@
+pointer:- pointer is a special variable that  store the address of another variable .
+where we use in c;
+1. file handling.
+2. call by reference.
+3. dynamic memory allocation
+4. structure and union
+
+syntax:- 
+data_type *pointer_name;
+
+example :-
+#include<stdio.h>
+int main(){
+    int a =5;
+    int *p; //pointer declared;
+    p=&a;  //store address of a in pointer p;
+
+    //if we print p they show store address of a ;
+    printf("p = %p\n",p);
+    //if we want to access  a value then we use *p;
+    printf("*p = %d",*p);
+
+    return 0;
+}
