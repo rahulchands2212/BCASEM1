@@ -1,0 +1,34 @@
+structure :- a structure is the collection of heterogeneous data type grouped togethere under a single name . the variable inside the structure are called members.
+we can access members by dot operator.
+all members have there own separate memory.
+cpu add padding for fast data read thats the reason they consume extra memroy space.
+
+syntax:-
+struct structure_name{
+    member_1;
+    member_2;
+    member_3;
+}s;     //s is struct variable for access members;
+
+example;
+
+#include<stdio.h>
+ 
+ struct student{
+        char name[20];
+       int  standard;
+    }s;
+
+
+int main(){
+   printf("enter name : ");
+   fgets(s.name,20,stdin);
+
+   printf("enter standard : ");
+   scanf("%d",&s.standard);
+
+   printf("%s",s.name);
+   printf("%d",s.standard);
+
+   return 0;
+}
