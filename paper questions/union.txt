@@ -1,0 +1,41 @@
+union:- A union in C is a collection of heterogeneous data members grouped under a single name.
+All members of a union share the same memory location, therefore only one member can store a value at a time.
+The size of a union is equal to the size of its largest data member.
+
+we can access the members by dot operator and pointer operator.
+
+difference of structure and union:-
+in structure members have there own seperate memory space.          in union members share memorys each other.
+in structure total memory = sum of all members + padding.           in union total memory =  bigest member.
+in structure we access multiple members.                           in union we access members only one time .
+define structure with struct keyword.                               define union with union keyword.
+
+sytax:-
+
+union union_name{
+    members;
+    members2;
+}s;
+
+example:-
+#include<stdio.h>
+
+union student{
+char name[20];
+int age;
+}s;
+
+int main(){
+    printf("enter name : ");
+    fgets(s.name,20,stdin);
+
+    printf("name : %s",s.name);
+
+    printf("enter age : ");
+    scanf("%d",&s.age);
+
+    printf("age : %d",s.age);
+
+    return 0;
+}
+
